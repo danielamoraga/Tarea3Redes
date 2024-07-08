@@ -1,6 +1,6 @@
 # Inyectar paquetes erróneos a un cliente
 
-El archivo ´´´pirata.py´´´ script utiliza la biblioteca Scapy para enviar paquetes UDP falsificados desde una dirección IP y puerto especificados hacia otra dirección IP y puerto. Está diseñado para enviar un mensaje en formato específico hasta 10.000 veces.
+El archivo ´pirata.py´ script utiliza la biblioteca Scapy para enviar paquetes UDP falsificados desde una dirección IP y puerto especificados hacia otra dirección IP y puerto. Está diseñado para enviar un mensaje en formato específico hasta 10.000 veces.
 
 ## Sistema Operativo
 
@@ -41,7 +41,7 @@ En una terminal ejecutar el siguiente comando para ejecutar el cliente (servidor
 ´´´
 ./copy_client.py 15 1000 IN OUT  anakena.dcc.uchile.cl 1818
 ´´´
-Luego de la ejecución se obtendrá la IP y el puerto a utilizar para ejecutar el pirata, de la siguiente manera: ´´´('<client_ip>', <client_port>)´´´. Además empezará a escribirse el archivo OUT.
+Luego de la ejecución se obtendrá la IP y el puerto a utilizar para ejecutar el pirata, de la siguiente manera: ´('<client_ip>', <client_port>)´. Además empezará a escribirse el archivo OUT.
 
 En otra terminal ejecutar el siguiente comando para ejecutar el pirata con la IP y puertos entregados por el cliente:
 ´´´

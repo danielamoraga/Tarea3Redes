@@ -49,3 +49,5 @@ sudo ./pirata.py anakena.dcc.uchile.cl 1818 <client_ip> <client_port>
 ```
 
 Una vez finaliza la ejecución del cliente el pirata podría continuar ejecutandose debido a la cantidad de iteraciones que realiza, pero puede detenerse manualmente ya que ya no tendrá nada que "hackear". Podemos revisar el archivo OUT y buscar en él la palabra _hackeado_ con Ctrl+F.
+
+* Para ejecutar en servidor local, cambiar `anakena.dcc.uchile.cl` por `127.0.0.1`.
